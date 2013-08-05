@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="${method:upgrade}">
+	<name>com_$0</name>
+	<author>$1</author>
+	<creationDate>$2</creationDate>
+	<copyright>${3:(C) 2013 Open Source Matters. All rights reserved.}</copyright>
+	<license>${4:GNU General Public License version 2 or later}</license>
+	<authorEmail>$5</authorEmail>
+	<authorUrl>$6</authorUrl>
+	<version>${7:1.0.0}</version>
+	<description>COM_$8_XML_DESCRIPTION</description>
+
+	<administration>
+		<files>
+			<filename>index.html</filename>
+			<filename></filename>
+			<folder></folder>
+	</files>
+	<menu></menu>
+	</administration>
+</extension>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>xmlcomponent</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
