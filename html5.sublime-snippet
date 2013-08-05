@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>$1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- <link rel="stylesheet" href="${2:/normalize.css}"> -->
+        <!-- <link rel="stylesheet" href="${3:css/main.css}"> -->
+    </head>
+    <body>
+    
+    <!-- Loaded Scripts -->
+    <script src="$4"></script>
+    </body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>myhtml:5</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
